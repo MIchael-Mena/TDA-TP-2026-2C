@@ -18,36 +18,6 @@ El informe se encuentra en documento PDF `informe_tp1.pdf`
 - `tests_catedra/`: entradas manuales y casos que entregue la cátedra.
 - `tests/`: suite automatizada de Python.
 
-Cada entrada contiene una única línea con valores enteros separados
-por espacios. Por ejemplo, `tests_catedra/ejemplo.txt` contiene:
-
-```text
-1 5 2 10 6
-```
-
-Los casos de prueba deben respetar este formato, salvo que la cátedra publique
-un formato específico diferente.
-
-## Casos que deben cubrirse
-
-Como mínimo, la suite debe incluir:
-
-1. Una moneda.
-2. Dos monedas.
-3. Cantidad impar de monedas.
-4. Cantidad par de monedas.
-5. Valores repetidos y empates en los extremos.
-6. Valores ordenados, inversamente ordenados y valores grandes.
-7. Los casos particulares provistos por la cátedra.
-
-Para cada caso conviene verificar que todas las elecciones sean legales, que
-cada moneda se use una sola vez, que las sumas coincidan con las elecciones y
-que se cumpla el resultado esperado. En empates no se debe exigir una única
-secuencia si existen varias soluciones equivalentes. Para casos pequeños,
-conviene comparar el resultado del greedy contra una solución de referencia
-exhaustiva que pruebe todas las elecciones posibles; así se puede verificar la
-optimalidad sin depender de resultados escritos a mano.
-
 ## Ejecución
 
 Desde la raíz del proyecto, crear y activar el entorno virtual:
