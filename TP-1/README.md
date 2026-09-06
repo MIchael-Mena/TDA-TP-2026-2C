@@ -11,7 +11,7 @@ informar la secuencia de elecciones y el total acumulado por cada jugador.
 
 ## Informe
 
-El informe se encuentra en documento PDF `informe_tp1.pdf`
+El informe se encuentra en el documento PDF `docs/informe-TP-1.pdf`.
 
 ## Estructura de los tests
 
@@ -20,18 +20,12 @@ El informe se encuentra en documento PDF `informe_tp1.pdf`
 
 ## Ejecución
 
-Desde la raíz del proyecto, crear y activar el entorno virtual:
+Desde el directorio `TP-1`, crear y activar el entorno virtual:
 
 ```bash
+cd TP-1
 python3 -m venv .venv
 source .venv/bin/activate
-```
-
-En Windows PowerShell, activar el entorno con:
-
-```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
 ```
 
 Si existe `requirements.txt`, instalar sus dependencias con:
@@ -43,7 +37,7 @@ python3 -m pip install -r requirements.txt
 Ejecutar el programa indicando un archivo de entrada:
 
 ```bash
-python3 tp1.py tests_catedra/ejemplo.txt
+python3 tp1.py tests_catedra/20.txt
 ```
 
 Ejecutar la suite automatizada con:
